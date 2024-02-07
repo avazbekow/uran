@@ -1,0 +1,149 @@
+sbody {
+  background-color: #19191b;
+  color: #ffffff;
+}
+section(
+  popding-top 20px
+  feColorMatrix30
+
+)
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.navigation {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+
+.navigation__item a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navigation__item a:hover {
+  color: var(--primary-color);
+}
+
+.search input {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper__left {
+  margin-top: 50px;
+  width: 45%;
+}
+
+.wrapper__left h1 {
+  font-size: 80px;
+  line-height: 70px;
+  font-family: var(--headers-family);
+}
+
+.wrapper__left p {
+  color: var(--secondary-color);
+  font-size: var(--main-size);
+  font-family: var(--headers-family);
+}
+
+.action-btn {
+  width: 200px;
+  height: 60px;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: var(--main-size);
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+  font-family: var(--headers-family);
+}
+
+.wrapper__right {
+  width: 50%;
+  position: relative;
+}
+
+/* .wrapper__right img:first-child {
+  width: 100%;
+} */
+
+.right__icons {
+  position: absolute;
+}
+
+#vector-1 {
+  top: 60px;
+}
+
+#vector-2 {
+  top: 30px;
+  right: 0;
+}
+
+#vector-3 {
+  left: -55px;
+  bottom: -55px;
+}
+
+#vector-4 {
+  right: 0;
+  bottom: 0;
+}
+
+/* services */
+.services{
+  margin-top: 200px;
+
+}
+.section-title{
+  font-size: var(--section-title-size);
+  font-family: var(--headers-family);
+}
+.services  .section-title{
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto;
+
+}
+.services_list{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.services_list__item{
+  width: 30px;
+  height: 500px;
+  background-color: black;
+  border-radius: 50%;
+}
+.dots (
+  display-flex
+
+)
+.activ:(
+hight10px
+)
+.container::content(
+  datalist::cue-region
+  ilign-items
+)
